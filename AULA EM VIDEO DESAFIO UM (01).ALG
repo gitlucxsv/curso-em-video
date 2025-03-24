@@ -1,16 +1,16 @@
-algoritmo "semnome"
+algoritmo "challenge"
 var
     emp, pcl, juros, total, todo:real
 inicio
-         escreval("Eu quero pegar um emprÈstimo, o banco me informou que os juros s„o de 20% ")
+         escreval("Eu quero pegar um empr√©stimo, o banco me informou que os juros s√£o de 20% ")
           escreva("Eu vou pegar ..")
            leia(emp)
-            escreva("As parcelas ser„o de.. ")
+            escreva("As parcelas ser√£o de.. ")
              leia(pcl)
               juros<-(emp*20)/100
                total<-juros + emp
                 todo<- total / pcl
-                 escreva(" Eu vou pagar R$", todo, " reais em ", pcl, " parcelas ", ", no total ser„o R$", total)
+                 escreva(" Eu vou pagar R$", todo, " reais em ", pcl, " parcelas ", ", no total ser√£o R$", total)
 
         
 fimalgoritmo
